@@ -8,6 +8,7 @@
 
 # updating scripts - clone repo or pulling updates
 cd ${HOME}
+pwd
 export GIT_DIR=app-eth2
 GIT_REPO=https://github.com/ngin-io/$GIT_DIR.git
 GIT_BRANCH=eth-try
@@ -17,6 +18,7 @@ git checkout $GIT_BRANCH
 # running and entering docker sandbox
 # TODO REVIEW usage below
 cd ${HOME}
+pwd
 # TODO bash ${GIT_REPO}/src/bash-samples/aws-ubuntu-18-docker-sandbox-shell.sh
 
 echo "well done!"
