@@ -9,7 +9,7 @@
 # updating scripts - clone repo or pulling updates
 cd ${HOME}
 pwd
-export REPo_DIR=app-eth2
+export REPO_DIR=app-eth2
 REPO=https://github.com/ngin-io/$GIT_DIR.git
 BRANCH=eth-try
 if cd $REPO_DIR; then git pull; else git clone $REPO && cd $REPO_DIR && git config credential.helper store; fi
