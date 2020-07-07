@@ -3,8 +3,7 @@
 # setup prerequisites:
 # - AWS ubuntu 18 LTS AMI
 
-# TODO use curl to fetch the file
-# USE THIS AS COPYPASTE IN YOUR BASH CONSOLE
+# use curl to fetch and run the file
 
 # updating scripts - clone repo or pulling updates
 cd ${HOME}
